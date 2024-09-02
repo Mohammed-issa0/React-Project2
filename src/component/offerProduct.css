@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.offerProduct {
+  width: 330px;
+  height: 240px;
+  border-radius: 40px;
+  background: rgba(214, 239, 216, 0.73);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+.offerProduct .mp {
+  position: absolute;
+  transform: translate(50%, -50%);
+}
+.offerProduct .sale {
+  position: absolute;
+  transform: translate(0%, -120%);
+}
+.offerProduct .first-line {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  line-height: 100%;
+}
+.offerProduct .second-line {
+  color: #7c8761;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.offerProduct .third-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.offerProduct .third-line .d20 {
+  color: #1a5319;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.d35 {
+  color: #737373;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}

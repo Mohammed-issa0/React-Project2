@@ -1,0 +1,104 @@
+ul,
+li {
+  list-style: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  background-color: #fff;
+  color: #1a5319;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.logo img {
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+}
+ul.sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  white-space: nowrap;
+}
+ul img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  ul.sections {
+    flex-direction: column;
+    background-color: #1a5319;
+    height: 100vh;
+    justify-content: flex-start;
+    position: fixed;
+  }
+}
+ul.iconss {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  padding-left: 40px;
+}
+ul.sections li,
+ul.iconss li {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.icon--2,
+.icon--3 {
+  width: 23px;
+}
+button {
+  background: #7c8761ab;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+select {
+  background: none;
+  border: none;
+}
+select:focus {
+  outline: none;
+  border: none;
+}
+option {
+  color: #1a5319;
+  background-color: none;
+  font-weight: 600;
+}
+.activebar {
+  color: rgba(255, 255, 255, 0.56);
+}
+.moon,
+.sun {
+  width: 25px;
+  cursor: pointer;
+}
+.sun {
+  display: none;
+}
+.darkMode .moon {
+  display: none;
+}
+.darkMode .sun {
+  display: block;
+}

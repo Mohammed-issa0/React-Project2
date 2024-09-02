@@ -1,0 +1,66 @@
+.Footer {
+  background: linear-gradient(
+    86.29deg,
+    rgba(124, 135, 97, 0.5) 1.58%,
+    rgba(214, 239, 216, 0.4) 105.3%
+  );
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+.darkMode .Footer {
+  background: linear-gradient(
+    86deg,
+    rgba(98, 107, 77, 0.5) 1.58%,
+    rgba(143, 173, 146, 0.4) 105.3%
+  );
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.two ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.two ul li {
+  padding: 10px 0;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactGroup p {
+  padding: 10px;
+}
+.contactGroup img {
+  height: 30px;
+}
+.three p {
+  display: flex;
+}
+.four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.four .links {
+  display: flex;
+  justify-content: space-around;
+}
+.four .links img {
+  margin: 0 10px;
+}

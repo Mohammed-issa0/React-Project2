@@ -1,0 +1,22 @@
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProductCard img.main {
+  height: 60%;
+}
+.ProductCard .title {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px;
+}
+.ProductCard .price {
+  font-size: 25px;
+  font-weight: 400;
+}
+.addToCard {
+  padding-top: 20px;
+  cursor: pointer;
+}

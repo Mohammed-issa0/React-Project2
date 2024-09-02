@@ -1,0 +1,21 @@
+.offerPage {
+  width: 100%;
+}
+.offerPage h1 {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  margin: 20px auto;
+  text-align: center;
+}
+.offers {
+  margin: 200px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 75%;
+}
