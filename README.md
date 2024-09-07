@@ -1,1 +1,1 @@
-# React-Project2
+# Plants-Store
