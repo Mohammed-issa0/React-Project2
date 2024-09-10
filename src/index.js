@@ -4,7 +4,7 @@ import App from "./App";
 function Page() {
   return (
     <>
-      <App />
+      <h1>This is a Test!</h1>
     </>
   );
 }
